@@ -1,0 +1,8 @@
+import_csv.content:
+  path: '/admin/import-content-csv'
+  defaults:
+    _form: '\Drupal\import_csv\Form\ImportForm'
+    _title: 'Import Content CSV'
+  requirements:
+    _permission: 'access content'
+

@@ -1,0 +1,5 @@
+import.config:
+  title: 'Import Content Csv'
+  description: 'Import Content CSV.'
+  parent: system.admin_config_system
+  route_name: import_csv.content

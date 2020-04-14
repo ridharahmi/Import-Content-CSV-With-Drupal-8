@@ -1,0 +1,6 @@
+name: 'Import Content CSV'
+description: 'Import Content Form A File CSV With Drupal 8.'
+type: module
+package: custom
+core: 8.x
+version: 8.x
