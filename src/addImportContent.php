@@ -58,6 +58,7 @@ function create_node($item)
         'field_image' => [
             'target_id' => $file->id(),
             'alt' => $item['title'],
+            'width' => '100'
         ],
         'moderation_state' => [
             'target_id' => 'published',
@@ -100,6 +101,8 @@ function prepareImageObj($url)
     }
     return $file;
 }
+
+
 /**
  * {@inheritdoc}
  */
@@ -113,6 +116,7 @@ function prepareImageObj($url)
     $node->field_image = [
         'target_id' => $file->id(),
         'alt' => $item['title'],
+        'width' => '100'
     ];
     $node->body = [
         'value' => $item['content'],

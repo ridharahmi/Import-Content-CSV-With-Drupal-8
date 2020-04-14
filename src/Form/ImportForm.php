@@ -34,7 +34,7 @@ class ImportForm extends FormBase
             '#type' => 'managed_file',
             '#title' => t('Upload File'),
             '#upload_location' => 'public://import_csv/',
-            '#default_value' => '',
+            '#required' => TRUE,
             "#upload_validators" => array("file_validate_extensions" => array("csv")),
             '#states' => array(
                 'visible' => array(
